@@ -7,6 +7,7 @@ import './Blogform.css'
 
 
 
+
  
 
 class Blogform extends Component {
@@ -48,15 +49,13 @@ class Blogform extends Component {
 render() {
     return (
 
-      <div className="parent">
+      <div >
 
-      <div className="Title">
-        <h4><b> Simple Blog Page </b></h4>
-      </div>
+      
 
-      <Container>
+      <Container className="formStyle">
 
-        <div className="formStyle">
+       
         
         <Form onSubmit={this.onSubmit}>
         <FormGroup>
@@ -86,7 +85,7 @@ render() {
           </Button>
       </Form>
 
-      </div>
+      
       </Container>
       </div>
     );
